@@ -14,6 +14,14 @@ JavaScript is used to add graphics or interactive pieces to your website, compar
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  ellipse(50,50,80,80);
+}
 ```
 ### Green box and text following cursor
 ```javascript
