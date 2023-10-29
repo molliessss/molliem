@@ -24,8 +24,7 @@ function draw() {
   ellipse(50,50,80,80);
 }
 ```
-
-### Green box and text follows mouse
+## Green box and text follows mouse
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
