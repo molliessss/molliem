@@ -12,7 +12,7 @@
 ... JavaScript is used to add graphics or interactive pieces to your website, compared to HTML, which is used to create the foundations of a website. For example, JavaScript can edit  pieces of text (known as "strings" in programming). For example, we take the string "Player 1: " and join it to the name variable to create the complete text label, e.g. "Player 1: Chris". JavaScript can also be used to run code in response to certain events occurring on a web page. 
 ## p5*Js experiments
 ### Set up canvas and draw eclipse
-```javascript
+<div>
 var s = "JavaScript syntax highlighting";
 alert(s);
 function setup() {
@@ -23,30 +23,4 @@ function draw() {
   background(220);
   ellipse(50,50,80,80);
 }
-```
-## Green box and text follows mouse
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-function setup() {
-  createCanvas(1500, 1500);
- 
-}
-
-function draw() {
-   let inside = color(2, 200, 89)
-   let p = createP('hi Im mollie and im trying really hard to code');
-  p.style('font-size', '12px');
-p.style('width', '65px');
-p.style('text-align', 'center');
-p.position(mouseX, mouseY, 100);
-  if (mouseIsPressed) {
- fill(0);
-  }else{
-    fill(inside);
-}
-createP(mouseX, mouseY, 100) 
-  square(mouseX, mouseY, 100)
-}
-```
-[example](https://molliessss.github.io)
+</div>
