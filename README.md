@@ -24,7 +24,8 @@ function draw() {
   ellipse(50,50,80,80);
 }
 ```
-### Set up canvas and draw eclipse
+
+### Green box and text follows mouse
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
