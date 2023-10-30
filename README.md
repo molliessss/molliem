@@ -21,7 +21,7 @@ function draw() {
   background(220);
   ellipse(50,50,80,80);
 } '''
-### Green box and text following cursor
+### Green sphere and text following cursor chages colour when clicking
 
 ```javascript
 var s = "JavaScript syntax highlighting";
