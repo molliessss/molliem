@@ -27,24 +27,26 @@ function draw() {
 var s = "JavaScript syntax highlighting";
 alert(s);
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1500, 1500);
  
 }
 
 function draw() {
    let inside = color(2, 200, 89)
-   let p = createP('hi Im mollie and im trying really hard to code');
-  p.style('font-size', '12px');
+   let inside2 = color(2, 400, 89)
+   let p = createP('hey there');
+  p.style('font-size', '30px');
 p.style('width', '65px');
-p.style('text-align', 'center');
-p.position(mouseX, mouseY, 100);
+  p.style('text-align', 'CENTRE');
+p.position(mouseX, mouseY, 0);
   if (mouseIsPressed) {
- fill(0);
-  }else{
     fill(inside);
+  }else{
+    fill(inside2);
+    strokeWeight(0);
 }
 createP(mouseX, mouseY, 100) 
-  square(mouseX, mouseY, 100)
+ellipse(mouseX, mouseY, 180);
 }
 ```
 [example](https://molliessss.github.io)
