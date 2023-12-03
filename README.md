@@ -49,7 +49,7 @@ createP(mouseX, mouseY, 100)
 ellipse(mouseX, mouseY, 180);
 }
 ```
-[example](https://molliessss.github.io)
+[example](https://molliessss.github.io/green-text/)
 ### 3D box with point light and web cam textures
 ```javascript
 var s = "JavaScript syntax highlighting";
